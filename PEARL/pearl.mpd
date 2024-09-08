@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT3H3M4.6S"
+	maxSegmentDuration="PT40.0S"
+	minBufferTime="PT1M20.0S">
+	<ProgramInformation>
+	</ProgramInformation>
+	<ServiceDescription id="0">
+	</ServiceDescription>
+	<Period id="0" start="PT0.0S">
+		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="24000/1001" maxWidth="1920" maxHeight="1080" par="16:9" lang="eng">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.640029" bandwidth="3002177" width="1920" height="1080" sar="1:1">
+				<SegmentTemplate timescale="16000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="645296" />
+						<S d="652656" />
+						<S d="653984" />
+						<S d="649984" />
+						<S d="645312" />
+						<S d="641312" />
+						<S d="651312" />
+						<S d="650656" />
+						<S d="641968" />
+						<S d="649984" />
+						<S d="647984" />
+						<S d="644640" />
+						<S d="647312" />
+						<S d="644640" />
+						<S d="641312" />
+						<S d="645984" />
+						<S d="654656" />
+						<S d="640640" />
+						<S d="653984" />
+						<S d="647984" />
+						<S d="641296" />
+						<S d="644656" />
+						<S d="651984" />
+						<S d="645968" />
+						<S d="651328" />
+						<S d="641968" />
+						<S d="654656" />
+						<S d="644640" />
+						<S d="641312" />
+						<S d="653312" />
+						<S d="651984" />
+						<S d="643984" />
+						<S d="647984" />
+						<S d="647968" />
+						<S d="646656" />
+						<S d="646640" />
+						<S d="652656" />
+						<S d="653984" />
+						<S d="642640" />
+						<S d="646656" />
+						<S d="641296" />
+						<S d="641312" />
+						<S d="653984" />
+						<S d="647984" />
+						<S d="645312" />
+						<S d="643984" />
+						<S d="643296" />
+						<S d="648656" />
+						<S d="652656" />
+						<S d="649984" />
+						<S d="644640" />
+						<S d="649984" />
+						<S d="651312" />
+						<S d="646640" />
+						<S d="642656" />
+						<S d="641296" />
+						<S d="645312" />
+						<S d="643984" />
+						<S d="652640" />
+						<S d="641312" />
+						<S d="645312" />
+						<S d="647984" />
+						<S d="646640" />
+						<S d="649984" />
+						<S d="646656" />
+						<S d="651312" />
+						<S d="649312" />
+						<S d="652656" />
+						<S d="646640" />
+						<S d="641984" />
+						<S d="644640" />
+						<S d="641968" />
+						<S d="643984" />
+						<S d="640640" />
+						<S d="643968" />
+						<S d="641984" />
+						<S d="650640" />
+						<S d="649984" />
+						<S d="642656" />
+						<S d="645296" />
+						<S d="643984" />
+						<S d="646640" />
+						<S d="647312" />
+						<S d="653328" />
+						<S d="652656" />
+						<S d="641296" />
+						<S d="649328" />
+						<S d="646640" />
+						<S d="653312" />
+						<S d="645312" />
+						<S d="645984" />
+						<S d="641312" />
+						<S d="655312" />
+						<S d="646656" />
+						<S d="654656" />
+						<S d="651312" />
+						<S d="641968" />
+						<S d="641984" />
+						<S d="641296" />
+						<S d="655328" />
+						<S d="645312" />
+						<S d="651312" />
+						<S d="654656" />
+						<S d="652656" />
+						<S d="641968" />
+						<S d="643984" />
+						<S d="645984" />
+						<S d="647312" />
+						<S d="645968" />
+						<S d="648656" />
+						<S d="653984" />
+						<S d="641968" />
+						<S d="650656" />
+						<S d="643312" />
+						<S d="643968" />
+						<S d="655328" />
+						<S d="643312" />
+						<S d="651312" />
+						<S d="645312" />
+						<S d="643312" />
+						<S d="641968" />
+						<S d="643984" />
+						<S d="648640" />
+						<S d="647328" />
+						<S d="647968" />
+						<S d="641312" />
+						<S d="640640" />
+						<S d="653312" />
+						<S d="640640" />
+						<S d="643984" />
+						<S d="651984" />
+						<S d="641968" />
+						<S d="646656" />
+						<S d="642640" />
+						<S d="649984" />
+						<S d="651984" />
+						<S d="643312" />
+						<S d="651312" />
+						<S d="641968" />
+						<S d="644656" />
+						<S d="643312" />
+						<S d="643296" />
+						<S d="648656" />
+						<S d="651312" />
+						<S d="641312" />
+						<S d="643312" />
+						<S d="655312" />
+						<S d="647984" />
+						<S d="641984" />
+						<S d="641296" />
+						<S d="653328" />
+						<S d="645968" />
+						<S d="653328" />
+						<S d="647984" />
+						<S d="644640" />
+						<S d="648640" />
+						<S d="646656" />
+						<S d="641296" />
+						<S d="649328" />
+						<S d="642640" />
+						<S d="651984" />
+						<S d="645984" />
+						<S d="646640" />
+						<S d="651984" />
+						<S d="641312" />
+						<S d="643968" />
+						<S d="640640" />
+						<S d="643984" />
+						<S d="646640" />
+						<S d="648656" />
+						<S d="653984" />
+						<S d="644640" />
+						<S d="647312" />
+						<S d="653328" />
+						<S d="641968" />
+						<S d="641312" />
+						<S d="644640" />
+						<S d="647312" />
+						<S d="649312" />
+						<S d="655328" />
+						<S d="645968" />
+						<S d="641984" />
+						<S d="648640" />
+						<S d="651984" />
+						<S d="641312" />
+						<S d="646656" />
+						<S d="649312" />
+						<S d="642640" />
+						<S d="645312" />
+						<S d="641968" />
+						<S d="649312" />
+						<S d="646656" />
+						<S d="641312" />
+						<S d="653312" />
+						<S d="645984" />
+						<S d="650640" />
+						<S d="640640" />
+						<S d="642640" />
+						<S d="643984" />
+						<S d="643968" />
+						<S d="641984" />
+						<S d="643312" />
+						<S d="655312" />
+						<S d="643984" />
+						<S d="642640" r="1" />
+						<S d="654656" />
+						<S d="647312" />
+						<S d="642640" />
+						<S d="646656" />
+						<S d="641296" />
+						<S d="655328" />
+						<S d="649984" />
+						<S d="641968" />
+						<S d="651984" />
+						<S d="651328" />
+						<S d="655312" />
+						<S d="649984" />
+						<S d="643312" />
+						<S d="642640" />
+						<S d="652656" />
+						<S d="650640" />
+						<S d="647984" />
+						<S d="649312" />
+						<S d="647984" />
+						<S d="643312" />
+						<S d="641312" />
+						<S d="641296" />
+						<S d="654000" />
+						<S d="648640" />
+						<S d="649312" />
+						<S d="644656" />
+						<S d="651984" r="1" />
+						<S d="651312" r="1" />
+						<S d="645312" />
+						<S d="652656" />
+						<S d="641312" />
+						<S d="640640" />
+						<S d="644640" />
+						<S d="640640" />
+						<S d="652656" />
+						<S d="640640" />
+						<S d="643312" />
+						<S d="651312" />
+						<S d="649312" />
+						<S d="650656" />
+						<S d="653984" />
+						<S d="654656" />
+						<S d="655984" />
+						<S d="643312" />
+						<S d="640640" />
+						<S d="649312" />
+						<S d="651984" />
+						<S d="654656" />
+						<S d="641968" />
+						<S d="646656" />
+						<S d="643968" />
+						<S d="655328" />
+						<S d="640640" r="10" />
+						<S d="475136" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="lat">
+			<Representation id="1" mimeType="audio/mp4" codecs="ac-3" bandwidth="256000" audioSamplingRate="48000">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="1920000" r="273" />
+						<S d="1211904" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
